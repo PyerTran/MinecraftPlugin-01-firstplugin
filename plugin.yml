@@ -1,0 +1,15 @@
+api-version: 1.16
+name: my_plugin
+version: 1.0.0
+author: pyer
+main: fr.pyer.my_plugin.main
+commands:
+  test:
+    description: test x -> wait x tick then open Inventory
+    permission: test.use
+  excalibur:
+    description: set excalibur(custom item) in the player main hand
+    permision: excalibur.use
+  customZombie:
+    description: spawn an invicible custom zombie
+    permission: customZombie.use
